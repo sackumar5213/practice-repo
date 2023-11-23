@@ -1,3 +1,12 @@
-for(let i=1;i<=10;i++){
-    console.log(i)
+var fruits = [
+    "apple",
+    "orange",
+    "seb",
+    "guava",
+    "mango",
+    "watermelon"
+];
+
+for(let value in fruits){
+    console.log(fruits[value]);
 }
